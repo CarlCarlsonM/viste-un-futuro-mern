@@ -1,38 +1,86 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.App-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.wrapper {
+  padding-top: 30px;
+  margin-top: 60px;
+}
+
+.navbar-custom {
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background-color: #24243e;
+  font-weight: bolder;
+  font-family: 'Pacifico', cursive;
+  font-size: larger;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.form-wrapper,
+.table-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: auto;
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  width: 50%;
+}
+
+.table-wrapper {
+  max-width: 700px;
+}
+
+.fieldset {
+  background-color: gray;
+  color: white;
+  font-weight: bolder;
+  padding: 15px 15px;
+  border-radius: 5%;
+}
+
+.edit-link {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.edit-link:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.create-button {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+  border: black;
+  width: 100%;
+  font-weight: bolder;
+}
+
+.landing-page, .section-title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-page-image {
+  width: 75%;
+  border: solid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copyright {
+  font-size: larger;
+  font-weight: bolder; 
 }

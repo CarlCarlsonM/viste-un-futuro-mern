@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "description": "backend for this project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlCarlsonM/viste-un-futuro-mern.git"
+  },
+  "author": "Carlos Arturo Murcia Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlCarlsonM/viste-un-futuro-mern/issues"
+  },
+  "homepage": "https://github.com/CarlCarlsonM/viste-un-futuro-mern#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
